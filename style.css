@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: #CDDAFD;
+}
+
+.container {
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 20px;
+  margin: 30px;
+  border-radius: 2%;
+  box-shadow: 0px 0px 40px rgba(213, 201, 211, 0.2);
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  display: inline-flex;
+}
+
+i {
+  color: white;
+  font-size: 35px;
+}
+
+.social-media-btn {
+  background-color: #EAE4E9;
+  padding: 8px;
+  margin: 0px 15px;
+  border-radius: 4px;
+}
+
+.btn-pastel-pink {
+  background-color: #FAD2E1;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
